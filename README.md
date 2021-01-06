@@ -10,7 +10,11 @@ python minecraft_scroll_autoclicker.py
 ```
 
 ## Usage
-Scroll up (or down, depends how do you see it) and every scroll step will generate one click.<br><br>
+Firstly you got to disable scroll in Minecraft settings. To do this, follow steps:<br>
+- Go to Controls -> Mouse Settings<br>
+- Change Scroll Sensitivity to 0,01<br><br>
+
+Then scroll up (or down, depends how do you see it) and every scroll step will generate one click.<br><br>
 If you want to change left mouse button to right mouse button, just go to `minecraft_scroll_autoclicker.py` file and change argument `right_button` of class to True. Like so:
 ```py
 if __name__ == "__main__":
