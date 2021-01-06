@@ -45,6 +45,7 @@ def on_press(key):
             print("Turned on")
         else:
             OFF = True
+            print("Turned off")
 
 def handle_scroll():
     with Listener(on_scroll=on_scroll) as listener:
@@ -55,6 +56,12 @@ def handle_keys():
         keyboard_listener.join()
 
 if __name__ == "__main__":
+    print("Started program... Instructions:")
+    print("Press key '[' to toggle mouse button")
+    print("Press key ']' to turn off or turn on scroll clicking")
+    print("Press Ctrl + C to terminate the program")
+    print("\n--------------\n")
+
     try:
         handler1 = threading.Thread(target=handle_scroll, args=())
         handler2 = threading.Thread(target=handle_keys, args=())
