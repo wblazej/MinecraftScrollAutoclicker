@@ -15,11 +15,9 @@ Firstly you got to disable scroll in Minecraft settings. To do this, follow step
 - Change Scroll Sensitivity to 0,01<br><br>
 
 Then scroll up (or down, depends how do you see it) and every scroll step will generate one click.<br><br>
-If you want to change left mouse button to right mouse button, just go to `minecraft_scroll_autoclicker.py` file and change argument `right_button` of class to True. Like so:
-```py
-if __name__ == "__main__":
-    auto_clicker = AutoClicker(right_button=True)
-```
+Press key **[** to toggle mouse button<br>
+Press key **]** to turn off or turn on scroll clicking<br>
+Press **Ctrl + C** to terminate the program<br><br>
 Technically, there's no chance to detect this software, but do not use this code to cheat on multiplayers game because you can get banned. **Use at your own risk**.
 
 ## CPS test
