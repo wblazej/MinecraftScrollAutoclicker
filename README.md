@@ -5,6 +5,7 @@ Minecraft scroll autoclicker is program that allows you to set your scroll as ri
 ```
 git clone https://github.com/wblazej/MinecraftScrollAutoclicker/
 cd MinecraftScrollAutoclicker
+pip install -r requirements.txt
 python minecraft_scroll_autoclicker.py
 ```
 
