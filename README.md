@@ -20,6 +20,5 @@ Press key **]** to turn off or turn on scroll clicking<br>
 Press **Ctrl + C** to terminate the program<br><br>
 Technically, there's no chance to detect this software, but do not use this code to cheat on multiplayers game because you can get banned. **Use at your own risk**.
 
-## CPS test
+## CPS
 It's depends on you how many cps will this program generate, because you use the scroll. You can scroll fast or slow. But in case of fast scrolling, this program can generate above 100 clicks per second.
-If you want to test it, go on CPS test website: https://wblazej.github.io/cps_test/
